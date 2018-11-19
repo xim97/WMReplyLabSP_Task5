@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://myefdomain.sharepoint.com/sites/replylabtask5/sitepages/home.aspx",
+      "customActions": {
+        "32dabab5-a1bd-413c-9e53-6272ce361f0c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "exceptionsAccounting": {
+      "pageUrl": "https://myefdomain.sharepoint.com/sites/replylabtask5/sitepages/home.aspx",
+      "customActions": {
+        "32dabab5-a1bd-413c-9e53-6272ce361f0c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

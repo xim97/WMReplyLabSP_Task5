@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ExceptionsAccounting"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="32dabab5-a1bd-413c-9e53-6272ce361f0c"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "exceptions-accounting-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/exceptionsAccounting/ExceptionsAccountingApplicationCustomizer.js",
+          "manifest": "./src/extensions/exceptionsAccounting/ExceptionsAccountingApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExceptionsAccountingApplicationCustomizerStrings": "lib/extensions/exceptionsAccounting/loc/{locale}.js"
+  }
+}
